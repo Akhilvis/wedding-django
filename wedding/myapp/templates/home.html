@@ -16,161 +16,31 @@
       background-size: cover;
     }
 
-    {% comment %} ######################## {% endcomment %}
-    {% comment %} body {
-      background: #1e5799;
-      /* Old browsers */
-      background: -moz-linear-gradient(top, #1e5799 0%, #7db9e8 100%);
-      /* FF3.6+ */
-      background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #1e5799), color-stop(100%, #7db9e8));
-      /* Chrome,Safari4+ */
-      background: -webkit-linear-gradient(top, #1e5799 0%, #7db9e8 100%);
-      /* Chrome10+,Safari5.1+ */
-      background: -o-linear-gradient(top, #1e5799 0%, #7db9e8 100%);
-      /* Opera 11.10+ */
-      background: -ms-linear-gradient(top, #1e5799 0%, #7db9e8 100%);
-      /* IE10+ */
-      background: linear-gradient(to bottom, #1e5799 0%, #7db9e8 100%);
-      /* W3C */
-      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1e5799', endColorstr='#7db9e8', GradientType=0);
-      /* IE6-9 */
-      min-height: 100%;
-    } {% endcomment %}
-
-    .snowflakes {
-      width: 100%;
-      height: 600px;
-      position: absolute;
-      top: -90px;
-      left: 0;
-    }
-    .snowflakes i,
-      .snowflakes i:after,
-      .snowflakes i:before {
-        background: white;
-      }
-    
-    .snowflakes i:after,
-    .snowflakes i:before {
-      height: 100%;
-      width: 100%;
-      content: ".";
-      position: absolute;
-      top: 0px;
-      left: 0px;
-      -webkit-transform: rotate(120deg);
-    }
-
-    .snowflakes i:before {
-      -webkit-transform: rotate(240deg);
-    }
-
-    @-webkit-keyframes snowflakes {
-      0% {
-        -webkit-transform: translate3d(0, 0, 0) rotate(0deg) scale(0.6);
-      }
-      100% {
-        -webkit-transform: translate3d(15px, 1200px, 0px) rotate(360deg) scale(0.6);
-      }
-    }
-
-    .snowflakes i {
-      display: inline-block;
-      -webkit-animation: snowflakes 3s linear 2s 20;
-      -moz-animation: snowflakes 3s linear 2s 20;
-      position: relative;
-    }
-
-    .snowflakes i:nth-child(3n) {
-      width: 16px;
-      height: 4px;
-      -webkit-animation-duration: 4s;
-      -webkit-animation-iteration-count: 30;
-      -webkit-transform-origin: right -45px;
-    }
-    .snowflakes i:nth-child(3n+1) {
-      width: 24px;
-      height: 6px;
-      -webkit-animation-duration: 6s;
-      -webkit-animation-iteration-count: 45;
-      -webkit-transform-origin: right -30px;
-    }
-    .snowflakes i:nth-child(3n+2) {
-      width: 32px;
-      height: 8px;
-      -webkit-animation-duration: 8s;
-      -webkit-animation-iteration-count: 60;
-      -webkit-transform-origin: right -15px;
-    }
-    /* different delays so they don't all start at the same time */
-    .snowflakes i:nth-child(7n) {
-      opacity: 0.3;
-      -webkit-animation-delay: 0s;
-      -webkit-animation-timing-function: ease-in;
-    }
-    .snowflakes i:nth-child(7n+1) {
-      opacity: 0.4;
-      -webkit-animation-delay: 1s;
-      -webkit-animation-timing-function: ease-out;
-    }
-    .snowflakes i:nth-child(7n+2) {
-      opacity: 0.5;
-      -webkit-animation-delay: 1.5s;
-      -webkit-animation-timing-function: linear;
-    }
-    .snowflakes i:nth-child(7n+3) {
-      opacity: 0.6;
-      -webkit-animation-delay: 2s;
-      -webkit-animation-timing-function: ease-in;
-    }
-    .snowflakes i:nth-child(7n+4) {
-      opacity: 0.7;
-      -webkit-animation-delay: 2.5s;
-      -webkit-animation-timing-function: linear;
-    }
-    .snowflakes i:nth-child(7n+5) {
-      opacity: 0.8;
-      -webkit-animation-delay: 3s;
-      -webkit-animation-timing-function: ease-out;
-    }
-    .snowflakes i:nth-child(7n+6) {
-      opacity: 0.9;
-      -webkit-animation-delay: 3.5s;
-      -webkit-animation-timing-function: ease-in;
-    }
-
 
   </style>
 </head>
 
 <body style="overflow: auto;"><div style="font-family:system-ui, sans-serif;line-height:1.4" class="bg-[#f9f9f9]">
   
-
-  <div class="snowflakes">
-    <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
-    <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
-    <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
-    <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
-    <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
-    <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
-    <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
-    <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
-    <i></i><i></i><i></i><i></i>
-</div>
-
   
   <div id="main_div" style="text-align:center; padding: 25% 0; background: #39dd6645;height: 100vh;">
     <div style="font-size: 4rem;font-family: 'Great Vibes';">Save the Date</div><br><br><br>
     <div style="font-size: 4rem;font-family: 'Playfair Display SC';">Akhil<br>&<br>Neena</div><br><br><br>
-  <button type="button" style="background: black" class="px-5 transition-all py-3 font-sans font-medium rounded-md bg-[#CE7BB0] hover:bg-[#A267AC] outline-[#6867AC] text-white outline-4 disabled:opacity-50 disabled:pointer-events-none cursor-pointer" onclick="open_invitation()">Open invitation</button>
+  <button type="button" style="background: black" class="px-5 transition-all py-3 font-sans font-medium rounded-md bg-[#CE7BB0] hover:bg-[#A267AC] outline-[#6867AC] text-white outline-4 disabled:opacity-50 disabled:pointer-events-none cursor-pointer" onclick="open_invitation()">Open Invitation</button>
 </div>  
 
 </div></div></div>
   
-  <div  class="parallax flex justify-center items-center h-screen md:h-[750px] bg-no-repeat bg-center bg-cover" style="background-image:url(/static/images/hero-bg.jpg); "><div class="mb-1" style="margin-top:400PX"><h4 class="text-center font-head font-bold text-5xl mb-4 text-[#EFEFEF]" style="text-shadow:3px 3px 1px #CE7BB0">Akhil &amp; Neena</h4><div class="text-center font-black font-sans text-md text-[#EFEFEF] italic border-t-2 border-[#CE7BB0] pt-3" style="text-shadow:2px 2px 1px #CE7BB0">13.11.2022</div></div></div><div class="bg-[#EFEFEF]"><div class="max-w-7xl mx-auto px-0 md:px-16"><div class="pt-20 pb-4"><h3 class="text-3xl text-center font-sans font-bold text-gray-700 mb-6">We're the Happy Ones</h3><div class="w-full flex flex-wrap pb-20"><div class="w-full md:w-1/2 px-4"><div class="flex flex-col items-center py-14 sm:px-8 lg:p-20 text-center"><img src="/static/css/Marriage - Akhil &amp; Neena_files/neena-img66-3EBOICP7.jpg" alt="pengantin perempuan" class="w-48 h-48 rounded-full mb-8"><h3 class="text-2xl font-medium font-head mb-4 text-gray-800">Neena Raj</h3><div class="mb-4"><div class="flex items-center justify-center"><div class="border-t border-gray-400 w-8"></div><div class="text-center font-medium font-head text-gray-600 italic mx-3">Bride</div><div class="border-t border-gray-400 w-8"></div></div></div></div></div><div class="w-full md:w-1/2 px-4"><div class="flex flex-col h-full items-center py-14 sm:px-8 lg:p-20 text-center justify-between"><div class="flex flex-col items-center"><img src="/static/css/Marriage - Akhil &amp; Neena_files/akhil-img22-VLK2WPFU.jpg" alt="pengantin laki-laki" class="w-48 h-48 rounded-full mb-8"><h3 class="text-2xl font-medium font-head mb-4 text-gray-800">Akhil Viswam</h3></div><div class="flex flex-col items-center"><div class="mb-4"><div class="flex items-center justify-center"><div class="border-t border-gray-400 w-8"></div><div class="text-center font-medium font-head text-gray-600 italic mx-3">Groom</div><div class="border-t border-gray-400 w-8"></div></div></div></div></div></div></div></div></div></div><div class="pt-24 pb-24"><div class="max-w-7xl mx-auto px-0 md:px-16"><div class="w-full px-1 md:px-4"><div class="text-3xl font-head font-bold text-center mb-10 pt-10 text-gray-700 px-2"><h4 class="mb-1">Countdown</h4></div><div class="flex justify-center pb-20"><div class="rounded-lg bg-[#EFEFEF] py-7 px-2 w-24 text-center mx-2 text-gray-700 font-sans"><div id="days" class="text-3xl mb-2"></div><div>Days</div></div><div class="rounded-lg bg-[#EFEFEF] py-7 px-2 w-24 text-center mx-2 text-gray-700 font-sans"><div id="hours" class="text-3xl mb-2"></div><div>Hours</div></div><div class="rounded-lg bg-[#EFEFEF] py-7 px-2 w-24 text-center mx-2 text-gray-700 font-sans"><div id="minutes" class="text-3xl mb-2"></div><div>Minutes</div></div><div class="rounded-lg bg-[#EFEFEF] py-7 px-2 w-24 text-center mx-2 text-gray-700 font-sans"><div id="seconds" class="text-3xl mb-2"></div><div>Seconds</div></div></div></div></div></div><div class="bg-[#EFEFEF] pt-24 pb-24"><div class="max-w-7xl mx-auto px-0 md:px-16"><div class="max-w-3xl mx-auto text-center"><div class="mb-4 text-gray-500 font-head md:text-lg font-medium">Our wedding will be held on:</div><h3 class="text-3xl md:text-4xl font-black mb-6 text-cente text-gray-700 font-sans">Sunday, 13 NOVEMBER 2022</h3><div class="px-12 flex max-w-md mx-auto mb-10"><a href="https://www.google.com/calendar/render?action=TEMPLATE&amp;text=Marriage+Akhil+%26+Neena+%F0%9F%92%8C&amp;location=Marriage%20at%20Ambady%20Auditorium%20Perumpuzha%20Kollam%20Reception%20at%20St%20Marys%20Knanaya%20Church%20Karippadom&amp;dates=20221113T063000Z%2F20221114T120000Z" target="_blank" class="px-8 py-4 transition-all text-lg font-semibold w-full rounded-lg bg-[#CE7BB0] hover:bg-[#A267AC] outline-[#6867AC] text-white outline-4 disabled:opacity-50 disabled:pointer-events-none cursor-pointer">Save on Calender</a></div></div></div></div><div class="pb-24"><div class="py-10 "><div><div class="max-w-7xl mx-auto px-0 md:px-16"><div class="flex flex-col-reverse md:flex-row"><div class="w-full px-4 md:w-1/2"><div class="p-2 bg-white rounded-lg shadow-lg">
+  <div id="subdiv1" class="parallax flex justify-center items-center h-screen md:h-[750px] bg-no-repeat bg-center bg-cover" style="background-image:url(/static/images/hero-bg.jpg);"><div class="mb-1" style="padding-top:400PX"><h4 class="text-center font-head font-bold text-5xl mb-4 text-[#EFEFEF]" style="text-shadow:3px 3px 1px #CE7BB0">Akhil &amp; Neena</h4><div class="text-center font-black font-sans text-md text-[#EFEFEF] italic border-t-2 border-[#CE7BB0] pt-3" style="text-shadow:2px 2px 1px #CE7BB0">13.11.2022</div></div></div>
+  <div id="subdiv5" class="bg-[#EFEFEF]"><div class="max-w-7xl mx-auto px-0 md:px-16"><div class="pt-20 pb-4"><h3 class="text-3xl text-center font-sans font-bold text-gray-700 mb-6">We're the Happy Ones</h3><div class="w-full flex flex-wrap pb-20"><div class="w-full md:w-1/2 px-4"><div class="flex flex-col items-center py-14 sm:px-8 lg:p-20 text-center"><img src="/static/css/Marriage - Akhil &amp; Neena_files/neena-img66-3EBOICP7.jpg" alt="pengantin perempuan" class="w-48 h-48 rounded-full mb-8"><h3 class="text-2xl font-medium font-head mb-4 text-gray-800">Neena Raj</h3><div class="mb-4"><div class="flex items-center justify-center"><div class="border-t border-gray-400 w-8"></div><div class="text-center font-medium font-head text-gray-600 italic mx-3">Bride</div><div class="border-t border-gray-400 w-8"></div></div></div></div></div><div class="w-full md:w-1/2 px-4"><div class="flex flex-col h-full items-center py-14 sm:px-8 lg:p-20 text-center justify-between"><div class="flex flex-col items-center"><img src="/static/css/Marriage - Akhil &amp; Neena_files/akhil-img22-VLK2WPFU.jpg" alt="pengantin laki-laki" class="w-48 h-48 rounded-full mb-8"><h3 class="text-2xl font-medium font-head mb-4 text-gray-800">Akhil Viswam</h3></div><div class="flex flex-col items-center"><div class="mb-4"><div class="flex items-center justify-center"><div class="border-t border-gray-400 w-8"></div><div class="text-center font-medium font-head text-gray-600 italic mx-3">Groom</div><div class="border-t border-gray-400 w-8"></div></div></div></div></div></div></div></div></div></div>
+  <div id="subdiv2"  class="pt-24 pb-24"><div class="max-w-7xl mx-auto px-0 md:px-16"><div class="w-full px-1 md:px-4"><div class="text-3xl font-head font-bold text-center mb-10 pt-10 text-gray-700 px-2"><h4 class="mb-1">Countdown</h4></div><div class="flex justify-center pb-20"><div class="rounded-lg bg-[#EFEFEF] py-7 px-2 w-24 text-center mx-2 text-gray-700 font-sans"><div id="days" class="text-3xl mb-2"></div><div>Days</div></div><div class="rounded-lg bg-[#EFEFEF] py-7 px-2 w-24 text-center mx-2 text-gray-700 font-sans"><div id="hours" class="text-3xl mb-2"></div><div>Hours</div></div><div class="rounded-lg bg-[#EFEFEF] py-7 px-2 w-24 text-center mx-2 text-gray-700 font-sans"><div id="minutes" class="text-3xl mb-2"></div><div>Minutes</div></div><div class="rounded-lg bg-[#EFEFEF] py-7 px-2 w-24 text-center mx-2 text-gray-700 font-sans"><div id="seconds" class="text-3xl mb-2"></div><div>Seconds</div></div></div></div></div></div>
+  <div id="subdiv3" class="bg-[#EFEFEF] pt-24 pb-24"><div class="max-w-7xl mx-auto px-0 md:px-16"><div class="max-w-3xl mx-auto text-center"><div class="mb-4 text-gray-500 font-head md:text-lg font-medium">Our wedding will be held on:</div><h3 class="text-3xl md:text-4xl font-black mb-6 text-cente text-gray-700 font-sans">Sunday, 13 NOVEMBER 2022</h3><div class="px-12 flex max-w-md mx-auto mb-10"><a href="https://www.google.com/calendar/render?action=TEMPLATE&amp;text=Marriage+Akhil+%26+Neena+%F0%9F%92%8C&amp;location=Marriage%20at%20Ambady%20Auditorium%20Perumpuzha%20Kollam%20Reception%20at%20St%20Marys%20Knanaya%20Church%20Karippadom&amp;dates=20221113T063000Z%2F20221114T120000Z" target="_blank" class="px-8 py-4 transition-all text-lg font-semibold w-full rounded-lg bg-[#CE7BB0] hover:bg-[#A267AC] outline-[#6867AC] text-white outline-4 disabled:opacity-50 disabled:pointer-events-none cursor-pointer">Save on Calender</a></div></div></div></div>
+  <div id="subdiv4" class="pb-24"><div class="py-10 "><div><div class="max-w-7xl mx-auto px-0 md:px-16"><div class="flex flex-col-reverse md:flex-row"><div class="w-full px-4 md:w-1/2"><div class="p-2 bg-white rounded-lg shadow-lg">
   
   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3941.40565047878!2d76.67640664951949!3d8.934715192889188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b05e28f9f021339%3A0x61d20bedb4cb6728!2sAmbadi%20Auditorium!5e0!3m2!1sen!2sin!4v1664000592113!5m2!1sen!2sin" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-</div></div><div class="md:w-1/2 w-full px-4 mb-6 md:mb-0"><div class="sticky top-8 text-center md:text-left"><h3 class="text-3xl font-head font-bold mb-3 text-gray-700">Wedding Location</h3><h4 class="text-xl md:text-2xl mb-4 font-sans font-semibold text-gray-700">Ambadi Auditorium, Perumpuzha, Kottarakkara, Kollam</h4><div class="flex md:justify-start justify-center"><a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3941.40565047844!2d76.67641201396306!3d8.934715192920619!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b05e28f9f021339%3A0x61d20bedb4cb6728!2sAmbadi%20Auditorium!5e0!3m2!1sen!2sin!4v1661879597384!5m2!1sen!2sin" target="_blank" class="px-5 py-2 transition-all text-lg font-semibold rounded-md bg-[#CE7BB0] hover:bg-[#A267AC] outline-[#6867AC] text-white outline-4 disabled:opacity-50 disabled:pointer-events-none cursor-pointer">Open Map</a></div></div></div></div></div></div></div></div><div class="py-24 text-gray-700 relative text-center font-sans">© 2022 by <span class="font-semibold">Akhil</span></div><audio controls="" loop="" hidden=""><source src="/wedding.mp3" type="audio/mp3">Your browser does not support the audio element.</audio>
+</div></div><div class="md:w-1/2 w-full px-4 mb-6 md:mb-0"><div class="sticky top-8 text-center md:text-left"><h3 class="text-3xl font-head font-bold mb-3 text-gray-700">Wedding Location</h3><h4 class="text-xl md:text-2xl mb-4 font-sans font-semibold text-gray-700">Ambadi Auditorium, Perumpuzha, Kottarakkara, Kollam</h4><div class="flex md:justify-start justify-center"><a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3941.40565047844!2d76.67641201396306!3d8.934715192920619!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b05e28f9f021339%3A0x61d20bedb4cb6728!2sAmbadi%20Auditorium!5e0!3m2!1sen!2sin!4v1661879597384!5m2!1sen!2sin" target="_blank" class="px-5 py-2 transition-all text-lg font-semibold rounded-md bg-[#CE7BB0] hover:bg-[#A267AC] outline-[#6867AC] text-white outline-4 disabled:opacity-50 disabled:pointer-events-none cursor-pointer">Open Map</a></div></div></div></div></div></div></div></div>
+
+<div  id="subdiv6" class="py-24 text-gray-700 relative text-center font-sans">© 2022 by <span class="font-semibold">Akhil</span></div><audio controls="" loop="" hidden=""><source src="/wedding.mp3" type="audio/mp3">Your browser does not support the audio element.</audio>
 
 </div><script>
           let STORAGE_KEY = "positions";
@@ -235,10 +105,23 @@ window.__remixRouteModules = {"root":route0,"routes/index":route1};</script><scr
             
         }, 1000);
 
+        document.getElementById("subdiv1").style.display = "none";
+        document.getElementById("subdiv2").style.display = "none";
+        document.getElementById("subdiv3").style.display = "none";
+        document.getElementById("subdiv4").style.display = "none";
+        document.getElementById("subdiv5").style.display = "none";
+        document.getElementById("subdiv6").style.display = "none";
 
-        
 
         function open_invitation(){
+
+          document.getElementById("subdiv1").style.display = "block";
+          document.getElementById("subdiv2").style.display = "block";
+          document.getElementById("subdiv3").style.display = "block";
+          document.getElementById("subdiv4").style.display = "block";
+          document.getElementById("subdiv5").style.display = "block";
+          document.getElementById("subdiv6").style.display = "block";
+
           window.scrollBy({ 
             top: 800, // could be negative value
             left: 0, 
@@ -246,7 +129,6 @@ window.__remixRouteModules = {"root":route0,"routes/index":route1};</script><scr
           });
           const audio = new Audio("/static/music/wedding_music.mp3");
           audio.play();
-
         }
 
         </script>
